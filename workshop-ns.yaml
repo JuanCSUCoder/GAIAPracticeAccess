@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  creationTimestamp: "2025-05-31T00:55:32Z"
+  labels:
+    kubernetes.io/metadata.name: docker-workshop
+  name: docker-workshop
+  resourceVersion: "24731450"
+  uid: 6870d069-a6d5-486f-bd7d-c0fbcc4d8d9c
+spec:
+  finalizers:
+  - kubernetes
+status:
+  phase: Active
