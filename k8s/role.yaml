@@ -34,3 +34,10 @@ rules:
   - list
   - get
   - watch
+- apiGroups:
+  - ""
+  resources:
+  - namespaces
+  verbs:
+  - get
+  - list
