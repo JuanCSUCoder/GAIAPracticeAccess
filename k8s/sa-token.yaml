@@ -1,0 +1,9 @@
+# sa-token.yaml
+apiVersion: v1
+kind: Secret
+metadata:
+  name: ras-member-token
+  namespace: docker-workshop
+  annotations:
+    kubernetes.io/service-account.name: ras-member
+type: kubernetes.io/service-account-token
